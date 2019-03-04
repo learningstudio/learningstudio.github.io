@@ -79,6 +79,6 @@ theme: Material-T
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/learningstudio/learningstudio.github.io
+  repo: https://github.com/learningstudio/learningstudio.github.io.git
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
