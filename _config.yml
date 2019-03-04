@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 计算机学习室
 subtitle:
 description:
 keywords:
-author: John Doe
+author: 
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://learningstudio.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,6 +79,6 @@ theme: Material-T
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/learningstudio/learningstudio.github.io.git
+  repo: https://github.com/learningstudio/learningstudio.github.io
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
