@@ -66,6 +66,6 @@ theme: Material-T
 # Deployment
 deploy:
   type: git
-  repo: https://github.com/learningstudio/learningstudio.github.io.git
+  repo: https://access_token@github.com/learningstudio/learningstudio.github.io.git
   branch: master
   message: "Docs updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
