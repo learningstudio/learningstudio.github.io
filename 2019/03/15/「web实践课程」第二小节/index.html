@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+
+
+
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon.jpg">
+    <link rel="icon" type="image/png" href="/favicon.jpg">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content>
+    <meta name="author" content>
+    <meta name="keywords" content>
+    <title>「web实践课程」第二小节 ~ 计算机学习室</title>
+    <link rel="stylesheet" href="/css/Material_Icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+        <link rel="stylesheet" href="/css/post.css">
+        
+            <link rel="stylesheet" href="/css/Prettify/tomorrow-night-eighties.min.css">
+        
+    
+</head>
+
+<body class=" sidebar-collapse">
+<nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" href="/">
+                计算机学习室</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="/archives/">
+                                    archives
+                                </a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about/">
+                                    about
+                                </a>
+                            </li>
+                        
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" rel="tooltip" title data-placement="bottom" href="https://github.com/learningstudio" target="_blank" data-original-title>
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+    </div>
+</nav>
+    
+  <div class="page-header header-filter" data-parallax="false" style="background-image: url('/img/post-banner.jpg'); height: 70vh;">
+    
+      <div class="container">
+        <h1 class="title text-center post_title">「web实践课程」第二小节</h1>
+        <p class="text-center"><b>Friday, March 15th 2019, 12:00 am</b></p>
+      </div>
+    
+  </div>
+
+  
+  
+  
+    <div class="row" style="margin: 0 0 0; z-index: 999;">
+  <div class="col-md-8 offset-md-1">
+    <div class="main main-raised">
+      <div class="container">
+        <div class="section">
+          <div class="post_content">
+              <p>今天主要围绕<strong>前端工程化</strong>学习前端的一些技术栈，主要包括：</p>
+<ul>
+<li>包管理器 - npm</li>
+<li>MVVM框架 - Vue</li>
+<li>UI框架 - Vuetify</li>
+<li>构建工具 - webpack</li>
+</ul>
+<h4 id="包管理器"><a href="#包管理器" class="headerlink" title="包管理器"></a>包管理器</h4><p>包管理器的主要作用是通过一种优雅的方式管理模块，如果希望类比的话，应该可以当成C语言中include的高级版本</p>
+<ul>
+<li>安装npm - <a href="https://www.npmjs.cn/getting-started/installing-node/" target="_blank" rel="noopener">参考文档</a></li>
+<li>创建npm项目 - <code>npm init</code></li>
+<li>添加npm依赖 - <code>npm install &lt;module-name&gt;</code></li>
+<li>移除npm依赖 - <code>npm remove &lt;module-name&gt;</code></li>
+</ul>
+<p><a href="https://www.npmjs.cn" target="_blank" rel="noopener">参考文档</a></p>
+<h4 id="MVVM框架"><a href="#MVVM框架" class="headerlink" title="MVVM框架"></a>MVVM框架</h4><p>MVVM的意思主要指将数据层和视图层进行分离，达到数据动态展示的目的；这里引入MVVM框架的目的主要是引入MVVM框架生态；MVVM框架中主要包括<code>Vue</code>,<code>React</code>和<code>Angular</code>;在这里主要会引入Vue作为学习的技术栈，而在学习过程中，主要围绕这几点去学习：</p>
+<ul>
+<li>什么是Vue？</li>
+<li>如何创建Vue项目</li>
+<li>什么是Vue-cli</li>
+<li>Vue的基础语法是怎样的</li>
+</ul>
+<p><a href="https://cn.vuejs.org/" target="_blank" rel="noopener">官网文档</a></p>
+<p><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Vue资源集合</a></p>
+<h4 id="UI框架"><a href="#UI框架" class="headerlink" title="UI框架"></a>UI框架</h4><p>在今天的讲课中，我主要根据<code>Material-design</code>设计理念去引入，告诉大家如何统一项目的设计；同时引入<code>Vuetify</code>这个UI框架去学习如何快速搭建项目骨架；在这个模块中，我们主要学习这几点：</p>
+<ul>
+<li>什么是<code>Material-design</code>?和<code>ant-design</code>如何对比</li>
+<li><code>Vuetify</code>是什么？如何在Vue项目中引入？</li>
+</ul>
+<p><a href="https://vuetifyjs.com/zh-Hans" target="_blank" rel="noopener">参考资源</a></p>
+<p>以上就是今天所学习的内容，希望大家下去后能够根据这几个技术栈去搭建项目骨架；如果有不明白则可以私聊学长或者在群聊中发问</p>
+
+          </div>
+          <br><br>
+          <div>
+              <p>
+                      
+              </p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <!-- TOC -->
+  
+  <div id="toc">
+    <p class="toc-title"><i class="material-icons" style="vertical-align:middle">toc</i>Toc:</p> 
+    <div id="tocbot"></div>
+  </div>
+
+</div>
+
+
+<br>
+<!-- Comments -->
+<div class="comments" id="comments">
+
+    
+    <div class="disqus" style="width:100%">
+    <div id="disqus_thread"></div>
+    <script>               
+        var disqus_shortname = '';
+        var disqus_config = function () {
+            this.page.url = 'https://learningstudio.github.io/2019/03/15/「web实践课程」第二小节/'; 
+            this.page.identifier = '/2019/03/15/「web实践课程」第二小节/';
+        };
+        (function() { 
+            var d = document, s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.src = '//'+disqus_shortname+'.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                                
+</div>
+
+</div>
+  
+
+<footer class="footer footer-default">
+        <div class="container">
+          <div class="float-left" style="padding: 15px 0;">
+              <b></b>
+          </div>
+        </div>
+</footer>
+      <!--   Core JS Files   -->
+      <script src="/js/core/jquery.min.js?v=3.2.1"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/core/popper.min.js"></script>
+      <script src="/js/core/bootstrap-material-design.min.js"></script>
+      <script src="/js/plugins/moment.min.js"></script>
+      <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+      <script src="/js/material-kit.min.js?v=2.0.5"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+        <script src="/js/post.js"></script>
+        <script src="/js/plugins/prettify.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('pre').addClass('prettyprint linenums');
+                prettyPrint();
+            })
+        </script>
+      
+</body>
+</html>
